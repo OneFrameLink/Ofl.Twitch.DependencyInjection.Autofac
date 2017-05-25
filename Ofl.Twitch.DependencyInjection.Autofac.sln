@@ -1,9 +1,14 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Twitch.DependencyInjection.Autofac", "Ofl.Twitch.DependencyInjection.Autofac\Ofl.Twitch.DependencyInjection.Autofac.csproj", "{80C714A8-959A-498A-974F-6EDB44112AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Twitch.DependencyInjection.Autofac", "src\Ofl.Twitch.DependencyInjection.Autofac\Ofl.Twitch.DependencyInjection.Autofac.csproj", "{80C714A8-959A-498A-974F-6EDB44112AFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F12CD79B-EEEB-4CF1-A906-F990315F724A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F9097676-C7B6-452F-94EE-11EB0A3D71EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Twitch.DependencyInjection.Autofac.Tests", "test\Ofl.Twitch.DependencyInjection.Autofac.Tests\Ofl.Twitch.DependencyInjection.Autofac.Tests.csproj", "{0F965C77-65CC-40F0-B78B-787B6BEF82EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,16 @@ Global
 		{80C714A8-959A-498A-974F-6EDB44112AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80C714A8-959A-498A-974F-6EDB44112AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80C714A8-959A-498A-974F-6EDB44112AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F965C77-65CC-40F0-B78B-787B6BEF82EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F965C77-65CC-40F0-B78B-787B6BEF82EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F965C77-65CC-40F0-B78B-787B6BEF82EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F965C77-65CC-40F0-B78B-787B6BEF82EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80C714A8-959A-498A-974F-6EDB44112AFF} = {F12CD79B-EEEB-4CF1-A906-F990315F724A}
+		{0F965C77-65CC-40F0-B78B-787B6BEF82EB} = {F9097676-C7B6-452F-94EE-11EB0A3D71EC}
 	EndGlobalSection
 EndGlobal
